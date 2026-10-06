@@ -7,9 +7,11 @@
 
 
 <div class="Main" align="center">  
-  <img src="./whoami-suite.svg" width="860" alt="Yukesh's Whoami Terminal Suite" />
-  <br><br>
+  
+  
   <img src="./contrib-heatmap.svg" width="860" alt="Yukesh's Contribution Heatmap" />
+  <br><br>
+  <img src="./whoami-suite.svg" width="860" alt="Yukesh's Whoami Terminal Suite" />
 </div>
 
 
