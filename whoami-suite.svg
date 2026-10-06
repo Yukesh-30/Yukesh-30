@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 530" width="860" height="530">
+<style>
+  .master-bg { fill: #070a0f; rx: 12px; ry: 12px; stroke: #30363d; stroke-width: 1px; }
+  .win-bg { fill: #0d1117; rx: 8px; ry: 8px; stroke: #21262d; stroke-width: 1px; }
+  .title-bar { fill: #161b22; }
+  .dot-red { fill: #ff5f56; } .dot-yellow { fill: #ffbd2e; } .dot-green { fill: #27c93f; }
+  .title-text { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; }
+  .ascii-text { fill: #d27d2d; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; font-weight: 600; white-space: pre; }
+  .cup-text-highlight { fill: #fbbf24; font-weight: 800; }
+  .prompt-text { fill: #7d8590; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 500; }
+  .user-text { fill: #ffffff; font-weight: bold; }
+  .sub-card { fill: #11161d; rx: 6px; ry: 6px; stroke: #21262d; stroke-width: 1px; }
+  .label-text { fill: #ea580c; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; }
+  .val-large { fill: #ea580c; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 19px; font-weight: 800; }
+  .val-white { fill: #ffffff; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 19px; font-weight: 800; }
+  .val-unit { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 400; }
+  .sub-desc { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; }
+  .bar-label { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9.5px; }
+  .peak-label { fill: #ff8f00; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; font-weight: bold; }
+  @keyframes cardFade { 0% { opacity: 0; transform: translateY(6px); } 100% { opacity: 1; transform: translateY(0); } }
+  .animate-item { animation: cardFade 0.4s ease-out forwards; opacity: 0; }
+</style>
+<defs>
+  <clipPath id="suite-art-clip-0">
+    <rect x="32" y="62.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.00s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-1">
+    <rect x="32" y="78.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.09s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-2">
+    <rect x="32" y="94.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.18s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-3">
+    <rect x="32" y="110.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.26s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-4">
+    <rect x="32" y="126.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.35s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-5">
+    <rect x="32" y="142.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.44s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-6">
+    <rect x="32" y="158.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.53s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-7">
+    <rect x="32" y="174.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.62s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-8">
+    <rect x="32" y="190.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.70s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-9">
+    <rect x="32" y="206.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.79s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-10">
+    <rect x="32" y="222.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.88s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-11">
+    <rect x="32" y="238.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.97s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-12">
+    <rect x="32" y="254.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.06s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-13">
+    <rect x="32" y="270.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.14s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-14">
+    <rect x="32" y="286.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.23s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-15">
+    <rect x="32" y="302.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.32s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-16">
+    <rect x="32" y="318.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.41s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-17">
+    <rect x="32" y="334.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.50s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-18">
+    <rect x="32" y="350.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.58s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-19">
+    <rect x="32" y="366.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.67s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-20">
+    <rect x="32" y="382.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.76s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-21">
+    <rect x="32" y="398.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.85s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-22">
+    <rect x="32" y="414.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.94s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-23">
+    <rect x="32" y="430.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="2.02s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="suite-art-clip-24">
+    <rect x="32" y="446.0" width="0" height="20.0">
+      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="2.11s" fill="freeze" />
+    </rect>
+  </clipPath>
+</defs>
+<rect width="860" height="530" class="master-bg" />
+<rect x="16" y="16" width="404" height="498" class="win-bg" />
+<path d="M 16 24 A 8 8 0 0 1 24 16 L 412 16 A 8 8 0 0 1 420 24 L 420 52 L 16 52 Z" class="title-bar" />
+<circle cx="32" cy="34" r="5" class="dot-red" />
+<circle cx="48" cy="34" r="5" class="dot-yellow" />
+<circle cx="64" cy="34" r="5" class="dot-green" />
+<text x="81" y="38" class="title-text">yukesh@github: ~ $ ./portrait.sh</text>
+<g clip-path="url(#suite-art-clip-0)">
+  <text x="32" y="78.0" class="ascii-text">              `.-:::///+++++//:.              </text>
+</g>
+<g clip-path="url(#suite-art-clip-1)">
+  <text x="32" y="94.0" class="ascii-text">           .///:-...---://+OOSSYYHDHS+-       </text>
+</g>
+<g clip-path="url(#suite-art-clip-2)">
+  <text x="32" y="110.0" class="ascii-text">        :Y+.`````````..--:/+OSYYYYHHHO.       </text>
+</g>
+<g clip-path="url(#suite-art-clip-3)">
+  <text x="32" y="126.0" class="ascii-text">      /D-``                 ` -:+SYSYM:       </text>
+</g>
+<g clip-path="url(#suite-art-clip-4)">
+  <text x="32" y="142.0" class="ascii-text">     DM.`                       -//MH:-.`     </text>
+</g>
+<g clip-path="url(#suite-art-clip-5)">
+  <text x="32" y="158.0" class="ascii-text">     DNMO.                        :HDOHMNNNMYO-</text>
+</g>
+<g clip-path="url(#suite-art-clip-6)">
+  <text x="32" y="174.0" class="ascii-text">     DMNNNDS/-`                -/SYS/-.``-:+OYHMMS.</text>
+</g>
+<g clip-path="url(#suite-art-clip-7)">
+  <text x="32" y="190.0" class="ascii-text">     HMMNNNNNNMDHYSSOOOOOsssss+:`.`..+`````..:/+S+</text>
+</g>
+<g clip-path="url(#suite-art-clip-8)">
+  <text x="32" y="206.0" class="ascii-text">     HMMNNMMMMMDDHYYS0+/:--.....`...+`        :0/:/</text>
+</g>
+<g clip-path="url(#suite-art-clip-9)">
+  <text x="32" y="222.0" class="ascii-text">     HMMNNMMMMMDDHHYS0++/:-......--/          -S0---0</text>
+</g>
+<g clip-path="url(#suite-art-clip-10)">
+  <text x="32" y="238.0" class="ascii-text">     YMMNMMMMMMDDHHYS0+/::--......--/          .YYO--0</text>
+</g>
+<g clip-path="url(#suite-art-clip-11)">
+  <text x="32" y="254.0" class="ascii-text">     YMMMMMMMMMDDH    +/::--......--/          /YYS---0</text>
+</g>
+<g clip-path="url(#suite-art-clip-12)">
+  <text x="32" y="270.0" class="ascii-text">     SMMMMMMMMMDDH <tspan class="cup-text-highlight">NOT</tspan> +/::--......--/          /SYYO-0</text>
+</g>
+<g clip-path="url(#suite-art-clip-13)">
+  <text x="32" y="286.0" class="ascii-text">     OMMMMMMMMMDDH <tspan class="cup-text-highlight">MY</tspan>  ++/::----...--:          ./+YSS:0</text>
+</g>
+<g clip-path="url(#suite-art-clip-14)">
+  <text x="32" y="302.0" class="ascii-text">     +MMMMMMMMMDDH <tspan class="cup-text-highlight">CUP</tspan> ++/::-------...:      .:++SSYO:0</text>
+</g>
+<g clip-path="url(#suite-art-clip-15)">
+  <text x="32" y="318.0" class="ascii-text">     +MMMMMMMMMDDH <tspan class="cup-text-highlight">OF</tspan>  0+/::-------...:-./++OOSSS+-0</text>
+</g>
+<g clip-path="url(#suite-art-clip-16)">
+  <text x="32" y="334.0" class="ascii-text">     +MMMMMMMMMDDH <tspan class="cup-text-highlight">TEA</tspan> 0+//:::-------:-////++00/-`0</text>
+</g>
+<g clip-path="url(#suite-art-clip-17)">
+  <text x="32" y="350.0" class="ascii-text">     /MMMMMMMMMDDH     0+//:::-------::`.-:///-.0</text>
+</g>
+<g clip-path="url(#suite-art-clip-18)">
+  <text x="32" y="366.0" class="ascii-text">     /MMMMMMMMMDDDHHYYS0++///:::-----::/`.-.,`</text>
+</g>
+<g clip-path="url(#suite-art-clip-19)">
+  <text x="32" y="382.0" class="ascii-text">     .DMMMMMMMMDDDHHYYS0++//::::::--:::/</text>
+</g>
+<g clip-path="url(#suite-art-clip-20)">
+  <text x="32" y="398.0" class="ascii-text">      -DMMMMMMMDDDHHYYS0++//:::::::::::</text>
+</g>
+<g clip-path="url(#suite-art-clip-21)">
+  <text x="32" y="414.0" class="ascii-text">       `ODMMMMMDDDHHYYS0++//:::::::::-</text>
+</g>
+<g clip-path="url(#suite-art-clip-22)">
+  <text x="32" y="430.0" class="ascii-text">         :SDMDDDDHHYYSS00+//:::--.</text>
+</g>
+<g clip-path="url(#suite-art-clip-23)">
+  <text x="32" y="446.0" class="ascii-text">           ./OSHHHYYSS000+/:--.</text>
+</g>
+<g clip-path="url(#suite-art-clip-24)">
+  <text x="32" y="462.0" class="ascii-text">                .......</text>
+</g>
+<text x="32" y="498" class="prompt-text">yukesh@github:~$ whoami <tspan class="user-text">Yukesh D</tspan></text>
+<rect x="436" y="16" width="408" height="498" class="win-bg" />
+<path d="M 436 24 A 8 8 0 0 1 444 16 L 836 16 A 8 8 0 0 1 844 24 L 844 52 L 436 52 Z" class="title-bar" />
+<circle cx="452" cy="34" r="5" class="dot-red" />
+<circle cx="468" cy="34" r="5" class="dot-yellow" />
+<circle cx="484" cy="34" r="5" class="dot-green" />
+<text x="501" y="38" class="title-text">yukesh@github: ~ $ ./stats.sh</text>
+<g class="animate-item" style="animation-delay: 0.05s;">
+  <rect x="452" y="66" width="180" height="72" class="sub-card" />
+  <text x="462" y="86" class="label-text">$ current streak</text>
+  <text x="462" y="110"><tspan class="val-large">0</tspan> <tspan class="val-unit">days</tspan></text>
+  <text x="462" y="125" class="sub-desc">May 10 - Oct 6</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.10s;">
+  <rect x="646" y="66" width="180" height="72" class="sub-card" />
+  <text x="656" y="86" class="label-text">$ longest streak</text>
+  <text x="656" y="110"><tspan class="val-white">0</tspan> <tspan class="val-unit">days</tspan></text>
+  <text x="656" y="125" class="sub-desc">May 10 - Oct 6</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.15s;">
+  <rect x="452" y="150" width="180" height="72" class="sub-card" />
+  <text x="462" y="170" class="label-text">$ contributions</text>
+  <text x="462" y="194" class="val-white">213</text>
+  <text x="462" y="209" class="sub-desc">in the last year</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.20s;">
+  <rect x="646" y="150" width="180" height="72" class="sub-card" />
+  <text x="656" y="170" class="label-text">$ active days</text>
+  <text x="656" y="194"><tspan class="val-white">0</tspan> <tspan class="val-unit">/ 367</tspan></text>
+  <text x="656" y="209" class="sub-desc">0% of the year</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.25s;">
+  <rect x="452" y="234" width="180" height="72" class="sub-card" />
+  <text x="462" y="254" class="label-text">$ best day</text>
+  <text x="462" y="278" class="val-white">0</text>
+  <text x="462" y="293" class="sub-desc">Mar 7</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.30s;">
+  <rect x="646" y="234" width="180" height="72" class="sub-card" />
+  <text x="656" y="254" class="label-text">$ avg / active day</text>
+  <text x="656" y="278" class="val-white">213.0</text>
+  <text x="656" y="293" class="sub-desc">contributions</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.35s;">
+  <rect x="452" y="318" width="376" height="180" class="sub-card" />
+  <text x="464" y="340" class="label-text">$ contributions / month</text>
+  <rect x="464.0" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="469.0" y="476" class="bar-label">N</text>
+  <rect x="494.54545454545456" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="499.54545454545456" y="476" class="bar-label">D</text>
+  <rect x="525.0909090909091" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="530.0909090909091" y="476" class="bar-label">J</text>
+  <rect x="555.6363636363636" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="560.6363636363636" y="476" class="bar-label">F</text>
+  <rect x="586.1818181818182" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="591.1818181818182" y="476" class="bar-label">M</text>
+  <rect x="616.7272727272727" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="621.7272727272727" y="476" class="bar-label">A</text>
+  <rect x="647.2727272727273" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="652.2727272727273" y="476" class="bar-label">M</text>
+  <rect x="677.8181818181818" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="682.8181818181818" y="476" class="bar-label">J</text>
+  <rect x="708.3636363636364" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="713.3636363636364" y="476" class="bar-label">J</text>
+  <rect x="738.909090909091" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="743.909090909091" y="476" class="bar-label">A</text>
+  <rect x="769.4545454545455" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="774.4545454545455" y="476" class="bar-label">S</text>
+  <rect x="800.0" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="805.0" y="476" class="bar-label">O</text>
+</g>
+</svg>

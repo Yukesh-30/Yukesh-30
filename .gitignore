@@ -1,0 +1,31 @@
+# Virtual Environment & Dependencies
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary & Prepped Media Files
+source-photo.jpg
+source-photo.png
+source-prepped.png
+
+# Node / Build artifacts (if any)
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log

@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" width="420" height="520">
+<style>
+  .bg { fill: #0d1117; rx: 8px; ry: 8px; stroke: #21262d; stroke-width: 1px; }
+  .title-bar { fill: #161b22; }
+  .dot-red { fill: #ff5f56; } .dot-yellow { fill: #ffbd2e; } .dot-green { fill: #27c93f; }
+  .title-text { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; }
+  .ascii-text { fill: #d27d2d; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; font-weight: 600; white-space: pre; }
+  .cup-text-highlight { fill: #fbbf24; font-weight: 800; }
+  .prompt-text { fill: #7d8590; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 500; }
+  .user-text { fill: #ffffff; font-weight: bold; }
+</style>
+<defs>
+  <clipPath id="art-clip-0">
+    <rect x="22" y="58.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.00s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-1">
+    <rect x="22" y="74.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.09s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-2">
+    <rect x="22" y="91.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.18s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-3">
+    <rect x="22" y="107.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.26s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-4">
+    <rect x="22" y="124.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.35s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-5">
+    <rect x="22" y="140.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.44s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-6">
+    <rect x="22" y="157.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.53s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-7">
+    <rect x="22" y="173.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.62s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-8">
+    <rect x="22" y="190.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.70s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-9">
+    <rect x="22" y="206.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.79s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-10">
+    <rect x="22" y="223.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.88s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-11">
+    <rect x="22" y="239.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="0.97s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-12">
+    <rect x="22" y="256.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.06s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-13">
+    <rect x="22" y="272.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.14s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-14">
+    <rect x="22" y="289.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.23s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-15">
+    <rect x="22" y="305.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.32s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-16">
+    <rect x="22" y="322.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.41s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-17">
+    <rect x="22" y="338.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.50s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-18">
+    <rect x="22" y="355.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.58s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-19">
+    <rect x="22" y="371.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.67s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-20">
+    <rect x="22" y="388.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.76s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-21">
+    <rect x="22" y="404.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.85s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-22">
+    <rect x="22" y="421.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="1.94s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-23">
+    <rect x="22" y="437.5" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="2.02s" fill="freeze" />
+    </rect>
+  </clipPath>
+  <clipPath id="art-clip-24">
+    <rect x="22" y="454.0" width="0" height="20.5">
+      <animate attributeName="width" from="0" to="398" dur="0.12s" begin="2.11s" fill="freeze" />
+    </rect>
+  </clipPath>
+</defs>
+<rect width="420" height="520" class="bg" />
+<path d="M 0 8 A 8 8 0 0 1 8 0 L 412 0 A 8 8 0 0 1 420 8 L 420 36 L 0 36 Z" class="title-bar" />
+<circle cx="16" cy="18" r="5" class="dot-red" />
+<circle cx="32" cy="18" r="5" class="dot-yellow" />
+<circle cx="48" cy="18" r="5" class="dot-green" />
+<text x="65" y="22" class="title-text">yukesh@github: ~ $ ./portrait.sh</text>
+<g clip-path="url(#art-clip-0)">
+  <text x="22" y="74.5" class="ascii-text">              `.-:::///+++++//:.              </text>
+</g>
+<g clip-path="url(#art-clip-1)">
+  <text x="22" y="91.0" class="ascii-text">           .///:-...---://+OOSSYYHDHS+-       </text>
+</g>
+<g clip-path="url(#art-clip-2)">
+  <text x="22" y="107.5" class="ascii-text">        :Y+.`````````..--:/+OSYYYYHHHO.       </text>
+</g>
+<g clip-path="url(#art-clip-3)">
+  <text x="22" y="124.0" class="ascii-text">      /D-``                 ` -:+SYSYM:       </text>
+</g>
+<g clip-path="url(#art-clip-4)">
+  <text x="22" y="140.5" class="ascii-text">     DM.`                       -//MH:-.`     </text>
+</g>
+<g clip-path="url(#art-clip-5)">
+  <text x="22" y="157.0" class="ascii-text">     DNMO.                        :HDOHMNNNMYO-</text>
+</g>
+<g clip-path="url(#art-clip-6)">
+  <text x="22" y="173.5" class="ascii-text">     DMNNNDS/-`                -/SYS/-.``-:+OYHMMS.</text>
+</g>
+<g clip-path="url(#art-clip-7)">
+  <text x="22" y="190.0" class="ascii-text">     HMMNNNNNNMDHYSSOOOOOsssss+:`.`..+`````..:/+S+</text>
+</g>
+<g clip-path="url(#art-clip-8)">
+  <text x="22" y="206.5" class="ascii-text">     HMMNNMMMMMDDHYYS0+/:--.....`...+`        :0/:/</text>
+</g>
+<g clip-path="url(#art-clip-9)">
+  <text x="22" y="223.0" class="ascii-text">     HMMNNMMMMMDDHHYS0++/:-......--/          -S0---0</text>
+</g>
+<g clip-path="url(#art-clip-10)">
+  <text x="22" y="239.5" class="ascii-text">     YMMNMMMMMMDDHHYS0+/::--......--/          .YYO--0</text>
+</g>
+<g clip-path="url(#art-clip-11)">
+  <text x="22" y="256.0" class="ascii-text">     YMMMMMMMMMDDH    +/::--......--/          /YYS---0</text>
+</g>
+<g clip-path="url(#art-clip-12)">
+  <text x="22" y="272.5" class="ascii-text">     SMMMMMMMMMDDH <tspan class="cup-text-highlight">NOT</tspan> +/::--......--/          /SYYO-0</text>
+</g>
+<g clip-path="url(#art-clip-13)">
+  <text x="22" y="289.0" class="ascii-text">     OMMMMMMMMMDDH <tspan class="cup-text-highlight">MY</tspan>  ++/::----...--:          ./+YSS:0</text>
+</g>
+<g clip-path="url(#art-clip-14)">
+  <text x="22" y="305.5" class="ascii-text">     +MMMMMMMMMDDH <tspan class="cup-text-highlight">CUP</tspan> ++/::-------...:      .:++SSYO:0</text>
+</g>
+<g clip-path="url(#art-clip-15)">
+  <text x="22" y="322.0" class="ascii-text">     +MMMMMMMMMDDH <tspan class="cup-text-highlight">OF</tspan>  0+/::-------...:-./++OOSSS+-0</text>
+</g>
+<g clip-path="url(#art-clip-16)">
+  <text x="22" y="338.5" class="ascii-text">     +MMMMMMMMMDDH <tspan class="cup-text-highlight">TEA</tspan> 0+//:::-------:-////++00/-`0</text>
+</g>
+<g clip-path="url(#art-clip-17)">
+  <text x="22" y="355.0" class="ascii-text">     /MMMMMMMMMDDH     0+//:::-------::`.-:///-.0</text>
+</g>
+<g clip-path="url(#art-clip-18)">
+  <text x="22" y="371.5" class="ascii-text">     /MMMMMMMMMDDDHHYYS0++///:::-----::/`.-.,`</text>
+</g>
+<g clip-path="url(#art-clip-19)">
+  <text x="22" y="388.0" class="ascii-text">     .DMMMMMMMMDDDHHYYS0++//::::::--:::/</text>
+</g>
+<g clip-path="url(#art-clip-20)">
+  <text x="22" y="404.5" class="ascii-text">      -DMMMMMMMDDDHHYYS0++//:::::::::::</text>
+</g>
+<g clip-path="url(#art-clip-21)">
+  <text x="22" y="421.0" class="ascii-text">       `ODMMMMMDDDHHYYS0++//:::::::::-</text>
+</g>
+<g clip-path="url(#art-clip-22)">
+  <text x="22" y="437.5" class="ascii-text">         :SDMDDDDHHYYSS00+//:::--.</text>
+</g>
+<g clip-path="url(#art-clip-23)">
+  <text x="22" y="454.0" class="ascii-text">           ./OSHHHYYSS000+/:--.</text>
+</g>
+<g clip-path="url(#art-clip-24)">
+  <text x="22" y="470.5" class="ascii-text">                .......</text>
+</g>
+<text x="20" y="504" class="prompt-text">yukesh@github:~$ whoami <tspan class="user-text">Yukesh D</tspan></text>
+</svg>

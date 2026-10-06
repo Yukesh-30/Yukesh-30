@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" width="420" height="520">
+<style>
+  .bg { fill: #0d1117; rx: 8px; ry: 8px; stroke: #21262d; stroke-width: 1px; }
+  .title-bar { fill: #161b22; }
+  .dot-red { fill: #ff5f56; } .dot-yellow { fill: #ffbd2e; } .dot-green { fill: #27c93f; }
+  .title-text { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; }
+  .sub-card { fill: #11161d; rx: 6px; ry: 6px; stroke: #21262d; stroke-width: 1px; }
+  .label-text { fill: #ea580c; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; }
+  .val-large { fill: #ea580c; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 20px; font-weight: 800; }
+  .val-white { fill: #ffffff; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 20px; font-weight: 800; }
+  .val-unit { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 400; }
+  .sub-desc { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; }
+  .bar-label { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9.5px; }
+  .peak-label { fill: #ff8f00; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 9px; font-weight: bold; }
+  @keyframes cardFade { 0% { opacity: 0; transform: translateY(6px); } 100% { opacity: 1; transform: translateY(0); } }
+  .animate-item { animation: cardFade 0.4s ease-out forwards; opacity: 0; }
+</style>
+<rect width="420" height="520" class="bg" />
+<path d="M 0 8 A 8 8 0 0 1 8 0 L 412 0 A 8 8 0 0 1 420 8 L 420 36 L 0 36 Z" class="title-bar" />
+<circle cx="16" cy="18" r="5" class="dot-red" />
+<circle cx="32" cy="18" r="5" class="dot-yellow" />
+<circle cx="48" cy="18" r="5" class="dot-green" />
+<text x="65" y="22" class="title-text">yukesh@github: ~ $ ./stats.sh</text>
+<g class="animate-item" style="animation-delay: 0.05s;">
+  <rect x="20" y="52" width="182" height="75" class="sub-card" />
+  <text x="32" y="74" class="label-text">$ current streak</text>
+  <text x="32" y="99"><tspan class="val-large">0</tspan> <tspan class="val-unit">days</tspan></text>
+  <text x="32" y="114" class="sub-desc">May 10 - Oct 6</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.10s;">
+  <rect x="218" y="52" width="182" height="75" class="sub-card" />
+  <text x="230" y="74" class="label-text">$ longest streak</text>
+  <text x="230" y="99"><tspan class="val-white">0</tspan> <tspan class="val-unit">days</tspan></text>
+  <text x="230" y="114" class="sub-desc">May 10 - Oct 6</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.15s;">
+  <rect x="20" y="139" width="182" height="75" class="sub-card" />
+  <text x="32" y="161" class="label-text">$ contributions</text>
+  <text x="32" y="186" class="val-white">213</text>
+  <text x="32" y="201" class="sub-desc">in the last year</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.20s;">
+  <rect x="218" y="139" width="182" height="75" class="sub-card" />
+  <text x="230" y="161" class="label-text">$ active days</text>
+  <text x="230" y="186"><tspan class="val-white">0</tspan> <tspan class="val-unit">/ 367</tspan></text>
+  <text x="230" y="201" class="sub-desc">0% of the year</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.25s;">
+  <rect x="20" y="226" width="182" height="75" class="sub-card" />
+  <text x="32" y="248" class="label-text">$ best day</text>
+  <text x="32" y="273" class="val-white">0</text>
+  <text x="32" y="288" class="sub-desc">Mar 7</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.30s;">
+  <rect x="218" y="226" width="182" height="75" class="sub-card" />
+  <text x="230" y="248" class="label-text">$ avg / active day</text>
+  <text x="230" y="273" class="val-white">213.0</text>
+  <text x="230" y="288" class="sub-desc">contributions</text>
+</g>
+<g class="animate-item" style="animation-delay: 0.35s;">
+  <rect x="20" y="313" width="380" height="185" class="sub-card" />
+  <text x="34" y="335" class="label-text">$ contributions / month</text>
+  <rect x="34.0" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="39.0" y="476" class="bar-label">N</text>
+  <rect x="64.54545454545455" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="69.54545454545455" y="476" class="bar-label">D</text>
+  <rect x="95.0909090909091" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="100.0909090909091" y="476" class="bar-label">J</text>
+  <rect x="125.63636363636364" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="130.63636363636363" y="476" class="bar-label">F</text>
+  <rect x="156.1818181818182" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="161.1818181818182" y="476" class="bar-label">M</text>
+  <rect x="186.72727272727275" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="191.72727272727275" y="476" class="bar-label">A</text>
+  <rect x="217.27272727272728" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="222.27272727272728" y="476" class="bar-label">M</text>
+  <rect x="247.8181818181818" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="252.8181818181818" y="476" class="bar-label">J</text>
+  <rect x="278.3636363636364" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="283.3636363636364" y="476" class="bar-label">J</text>
+  <rect x="308.90909090909093" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="313.90909090909093" y="476" class="bar-label">A</text>
+  <rect x="339.4545454545455" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="344.4545454545455" y="476" class="bar-label">S</text>
+  <rect x="370.0" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
+  <text x="375.0" y="476" class="bar-label">O</text>
+</g>
+</svg>
