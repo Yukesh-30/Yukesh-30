@@ -101,12 +101,12 @@ def create_whoami_suite_svg(json_file="data/contributions.json", output_file="wh
     svg.append('  .animate-item { animation: cardFade 0.4s ease-out forwards; opacity: 0; }')
     svg.append('</style>')
 
-    # ASCII clip paths
+    # ASCII clip paths (Slow & Eased typing animation)
     ascii_lines = get_target_ascii_art()
     num_rows = len(ascii_lines)
-    total_duration = 2.2
+    total_duration = 5.5
     row_delay = total_duration / max(1, num_rows)
-    row_duration = 0.12
+    row_duration = 0.45
 
     svg.append('<defs>')
     left_pad_x = 32
@@ -117,7 +117,7 @@ def create_whoami_suite_svg(json_file="data/contributions.json", output_file="wh
         begin_time = f"{i * row_delay:.2f}s"
         svg.append(f'  <clipPath id="{clip_id}">')
         svg.append(f'    <rect x="{left_pad_x}" y="{left_pad_y + i * line_h - 4}" width="0" height="{line_h + 4}">')
-        svg.append(f'      <animate attributeName="width" from="0" to="380" dur="{row_duration:.2f}s" begin="{begin_time}" fill="freeze" />')
+        svg.append(f'      <animate attributeName="width" from="0" to="380" dur="{row_duration:.2f}s" begin="{begin_time}" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />')
         svg.append('    </rect>')
         svg.append('  </clipPath>')
     svg.append('</defs>')

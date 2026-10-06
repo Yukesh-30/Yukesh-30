@@ -46,9 +46,9 @@ def create_ascii_svg(ascii_lines, output_file="avi-ascii.svg"):
     padding_x = 22
     padding_y = 62
     
-    total_duration = 2.2
+    total_duration = 5.5
     row_delay = total_duration / max(1, num_rows)
-    row_duration = 0.12
+    row_duration = 0.45
 
     svg = []
     svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">')
@@ -63,14 +63,14 @@ def create_ascii_svg(ascii_lines, output_file="avi-ascii.svg"):
     svg.append('  .user-text { fill: #ffffff; font-weight: bold; }')
     svg.append('</style>')
 
-    # Clip paths for row-by-row SMIL animation
+    # Clip paths for row-by-row SMIL animation (Slow & Eased)
     svg.append('<defs>')
     for i in range(num_rows):
         clip_id = f"art-clip-{i}"
         begin_time = f"{i * row_delay:.2f}s"
         svg.append(f'  <clipPath id="{clip_id}">')
         svg.append(f'    <rect x="{padding_x}" y="{padding_y + i * line_height - 4}" width="0" height="{line_height + 4}">')
-        svg.append(f'      <animate attributeName="width" from="0" to="{width - padding_x}" dur="{row_duration:.2f}s" begin="{begin_time}" fill="freeze" />')
+        svg.append(f'      <animate attributeName="width" from="0" to="{width - padding_x}" dur="{row_duration:.2f}s" begin="{begin_time}" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />')
         svg.append('    </rect>')
         svg.append('  </clipPath>')
     svg.append('</defs>')

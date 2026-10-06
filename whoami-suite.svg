@@ -23,127 +23,127 @@
 <defs>
   <clipPath id="suite-art-clip-0">
     <rect x="32" y="62.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.00s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="0.00s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-1">
     <rect x="32" y="78.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.09s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="0.22s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-2">
     <rect x="32" y="94.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.18s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="0.44s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-3">
     <rect x="32" y="110.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.26s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="0.66s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-4">
     <rect x="32" y="126.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.35s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="0.88s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-5">
     <rect x="32" y="142.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.44s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="1.10s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-6">
     <rect x="32" y="158.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.53s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="1.32s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-7">
     <rect x="32" y="174.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.62s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="1.54s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-8">
     <rect x="32" y="190.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.70s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="1.76s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-9">
     <rect x="32" y="206.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.79s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="1.98s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-10">
     <rect x="32" y="222.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.88s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="2.20s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-11">
     <rect x="32" y="238.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="0.97s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="2.42s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-12">
     <rect x="32" y="254.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.06s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="2.64s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-13">
     <rect x="32" y="270.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.14s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="2.86s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-14">
     <rect x="32" y="286.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.23s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="3.08s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-15">
     <rect x="32" y="302.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.32s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="3.30s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-16">
     <rect x="32" y="318.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.41s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="3.52s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-17">
     <rect x="32" y="334.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.50s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="3.74s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-18">
     <rect x="32" y="350.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.58s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="3.96s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-19">
     <rect x="32" y="366.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.67s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="4.18s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-20">
     <rect x="32" y="382.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.76s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="4.40s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-21">
     <rect x="32" y="398.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.85s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="4.62s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-22">
     <rect x="32" y="414.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="1.94s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="4.84s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-23">
     <rect x="32" y="430.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="2.02s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="5.06s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
   <clipPath id="suite-art-clip-24">
     <rect x="32" y="446.0" width="0" height="20.0">
-      <animate attributeName="width" from="0" to="380" dur="0.12s" begin="2.11s" fill="freeze" />
+      <animate attributeName="width" from="0" to="380" dur="0.45s" begin="5.28s" calcMode="spline" keySplines="0.25 0.1 0.25 1.0" fill="freeze" />
     </rect>
   </clipPath>
 </defs>
