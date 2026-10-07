@@ -251,13 +251,13 @@
 <g class="animate-item" style="animation-delay: 0.15s;">
   <rect x="452" y="150" width="180" height="72" class="sub-card" />
   <text x="462" y="170" class="label-text">$ contributions</text>
-  <text x="462" y="194" class="val-white">213</text>
+  <text x="462" y="194" class="val-white">217</text>
   <text x="462" y="209" class="sub-desc">in the last year</text>
 </g>
 <g class="animate-item" style="animation-delay: 0.20s;">
   <rect x="646" y="150" width="180" height="72" class="sub-card" />
   <text x="656" y="170" class="label-text">$ active days</text>
-  <text x="656" y="194"><tspan class="val-white">0</tspan> <tspan class="val-unit">/ 367</tspan></text>
+  <text x="656" y="194"><tspan class="val-white">0</tspan> <tspan class="val-unit">/ 368</tspan></text>
   <text x="656" y="209" class="sub-desc">0% of the year</text>
 </g>
 <g class="animate-item" style="animation-delay: 0.25s;">
@@ -269,7 +269,7 @@
 <g class="animate-item" style="animation-delay: 0.30s;">
   <rect x="646" y="234" width="180" height="72" class="sub-card" />
   <text x="656" y="254" class="label-text">$ avg / active day</text>
-  <text x="656" y="278" class="val-white">213.0</text>
+  <text x="656" y="278" class="val-white">217.0</text>
   <text x="656" y="293" class="sub-desc">contributions</text>
 </g>
 <g class="animate-item" style="animation-delay: 0.35s;">
