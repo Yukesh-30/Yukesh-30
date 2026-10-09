@@ -6,7 +6,7 @@
     "longest_streak": 0,
     "longest_streak_range": "",
     "active_days": 0,
-    "total_days": 369,
+    "total_days": 370,
     "active_percentage": 0,
     "best_day_count": 0,
     "best_day_date": "",
@@ -2656,6 +2656,13 @@
       "count": 0,
       "level": 0,
       "weekday": 4,
+      "week": 52
+    },
+    {
+      "date": "2026-10-09",
+      "count": 0,
+      "level": 0,
+      "weekday": 5,
       "week": 52
     }
   ]
