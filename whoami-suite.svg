@@ -257,7 +257,7 @@
 <g class="animate-item" style="animation-delay: 0.20s;">
   <rect x="646" y="150" width="180" height="72" class="sub-card" />
   <text x="656" y="170" class="label-text">$ active days</text>
-  <text x="656" y="194"><tspan class="val-white">0</tspan> <tspan class="val-unit">/ 371</tspan></text>
+  <text x="656" y="194"><tspan class="val-white">0</tspan> <tspan class="val-unit">/ 365</tspan></text>
   <text x="656" y="209" class="sub-desc">0% of the year</text>
 </g>
 <g class="animate-item" style="animation-delay: 0.25s;">
@@ -276,28 +276,28 @@
   <rect x="452" y="318" width="376" height="180" class="sub-card" />
   <text x="464" y="340" class="label-text">$ contributions / month</text>
   <rect x="464.0" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="469.0" y="476" class="bar-label">N</text>
+  <text x="469.0" y="476" class="bar-label">D</text>
   <rect x="494.54545454545456" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="499.54545454545456" y="476" class="bar-label">D</text>
+  <text x="499.54545454545456" y="476" class="bar-label">J</text>
   <rect x="525.0909090909091" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="530.0909090909091" y="476" class="bar-label">J</text>
+  <text x="530.0909090909091" y="476" class="bar-label">F</text>
   <rect x="555.6363636363636" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="560.6363636363636" y="476" class="bar-label">F</text>
+  <text x="560.6363636363636" y="476" class="bar-label">M</text>
   <rect x="586.1818181818182" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="591.1818181818182" y="476" class="bar-label">M</text>
+  <text x="591.1818181818182" y="476" class="bar-label">A</text>
   <rect x="616.7272727272727" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="621.7272727272727" y="476" class="bar-label">A</text>
+  <text x="621.7272727272727" y="476" class="bar-label">M</text>
   <rect x="647.2727272727273" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="652.2727272727273" y="476" class="bar-label">M</text>
+  <text x="652.2727272727273" y="476" class="bar-label">J</text>
   <rect x="677.8181818181818" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
   <text x="682.8181818181818" y="476" class="bar-label">J</text>
   <rect x="708.3636363636364" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="713.3636363636364" y="476" class="bar-label">J</text>
+  <text x="713.3636363636364" y="476" class="bar-label">A</text>
   <rect x="738.909090909091" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="743.909090909091" y="476" class="bar-label">A</text>
+  <text x="743.909090909091" y="476" class="bar-label">S</text>
   <rect x="769.4545454545455" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="774.4545454545455" y="476" class="bar-label">S</text>
+  <text x="774.4545454545455" y="476" class="bar-label">O</text>
   <rect x="800.0" y="454" width="16" height="6" rx="3" fill="#ea580c" opacity="0.9" />
-  <text x="805.0" y="476" class="bar-label">O</text>
+  <text x="805.0" y="476" class="bar-label">N</text>
 </g>
 </svg>
