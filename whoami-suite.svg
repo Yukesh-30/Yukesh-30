@@ -257,7 +257,7 @@
 <g class="animate-item" style="animation-delay: 0.20s;">
   <rect x="646" y="150" width="180" height="72" class="sub-card" />
   <text x="656" y="170" class="label-text">$ active days</text>
-  <text x="656" y="194"><tspan class="val-white">0</tspan> <tspan class="val-unit">/ 368</tspan></text>
+  <text x="656" y="194"><tspan class="val-white">0</tspan> <tspan class="val-unit">/ 369</tspan></text>
   <text x="656" y="209" class="sub-desc">0% of the year</text>
 </g>
 <g class="animate-item" style="animation-delay: 0.25s;">
